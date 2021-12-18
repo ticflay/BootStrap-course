@@ -15,10 +15,10 @@ $(document).ready(function(){
         
     });
     $('#reserveBtn').click(function(){
-        $('#reserveModal').modal();
+        $('#reserveModal').modal('toggle');
     });
     $('#loginBtn').click(function(){
-        $('#loginModal').modal();
+        $('#loginModal').modal('toggle');
     });
    
 });
